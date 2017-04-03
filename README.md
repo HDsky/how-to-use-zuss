@@ -10,7 +10,7 @@
 
 ## 2.然后我们来看操作系统的设置
 
-1. 1Microsoft Windows
+### 1.Microsoft Windows
 
 首先到[https://github.com/shadowsocksr/shadowsocksr-csharp/releases](https://github.com/shadowsocksr/shadowsocksr-csharp/releases) 下载最新版本的ShadowSocksR
 
