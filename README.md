@@ -1,4 +1,4 @@
-# How to use zuss {#how-to-use-zuss}
+# How to use zuss
 
 本文为合作编辑，感谢各位合作者的辛勤付出：lyic，imzbb，HDsky
 
