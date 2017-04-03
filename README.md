@@ -1,8 +1,6 @@
 # how to use zuss {#how-to-use-zuss}
 
-
-
-1. 面板里的配置
+## 1.面板里的配置
 
 注册登录啥的自行领会，谢谢。
 
@@ -10,9 +8,9 @@
 
 向下拉到SSR协议&混淆设置，将协议修改为auth\_sha1\_v4，混淆方式修改为tls1.2\_ticket\_auth
 
-然后我们来看分操作系统的设置
+## 2.然后我们来看操作系统的设置
 
-1. Microsoft Windows
+1. 1Microsoft Windows
 
 首先到[https://github.com/shadowsocksr/shadowsocksr-csharp/releases](https://github.com/shadowsocksr/shadowsocksr-csharp/releases) 下载最新版本的ShadowSocksR
 
@@ -40,15 +38,13 @@ GFWList：只有部分被墙的网站才走代理，这个列表可能更新不�
 
 开启系统代理为PAC模式
 
-1. Apple iOS
+1. 2Apple iOS
 
 iOS上有三个客户端可以使用，分别是Surge、 Shadowrocket 和 Potatso
 
 然而两个都是付费的，希望获取免费Shadowrocket账号的请联系群主。
 
 打开Shadowrocket，点击右上角的+号，类型选 ShadowsocksR，依次按照节点说明填入服务器地址、代理端口、密码、加密方式，并且设置混淆和协议，然后点击右上角的Done就配置完了。
-
-
 
 第一次运行会弹出一个创建VPN的窗口，点击Allow，再输入密码或进行Touch ID认证，然后重新点击连接。
 
