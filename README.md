@@ -10,7 +10,7 @@
 
 进入主页后点击右边的资料编辑
 
-向下拉到SSR协议&混淆设置，将协议修改为auth\_sha1\_v4，混淆方式修改为tls1.2\_ticket\_auth
+~~向下拉到SSR协议&混淆设置，将协议修改为auth\_sha1\_v4，混淆方式修改为tls1.2\_ticket\_auth（可以不做这些改动）~~
 
 ![](/images/chaos.png)
 
