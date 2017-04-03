@@ -20,6 +20,8 @@
 
 首先是解压，然后得到这个目录：
 
+![](/assets/unzip.png)
+
 请确保你安装了.NET Framework运行时（对于Windows 8及更新版本的Windows会自带4.0以上版本；对于Windows Vista和Windows 7会自带2.0版本），可以先尝试运行ShadowsocksR-dotnet4.0.exe，如果出现错误再尝试运行ShadowsocksR-dotnet2.0.exe。
 
 如果都错误那就是没有安装（比如说Windows XP），请到微软官网下载安装.NET Framework运行时4.0版本：[点击下载](https://www.microsoft.com/zh-CN/download/details.aspx?id=17851)
@@ -44,13 +46,15 @@ GFWList：只有部分被墙的网站才走代理，这个列表可能更新不�
 
 iOS上有三个客户端可以使用，分别是Surge、 Shadowrocket 和 Potatso
 
-然而两个都是付费的，希望获取免费Shadowrocket账号的请联系群主。
-
 打开Shadowrocket，点击右上角的+号，类型选 ShadowsocksR，依次按照节点说明填入服务器地址、代理端口、密码、加密方式，并且设置混淆和协议，然后点击右上角的Done就配置完了。
+
+![](/assets/Shadowrocket.png)
 
 第一次运行会弹出一个创建VPN的窗口，点击Allow，再输入密码或进行Touch ID认证，然后重新点击连接。
 
 ### 3.Android
 
 首先请下载安装APP [点此下载](https://github.com/shadowsocksr/shadowsocksr-android/releases)
+
+配置过程与IOS客户端类似。
 
