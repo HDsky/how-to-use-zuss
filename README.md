@@ -4,6 +4,7 @@
 
 最后编辑日期为：2017/4/3
 
+Gitbook连接：https://hdsky.gitbooks.io/how-to-use-zuss/content/
 ## 1.面板里的配置
 
 注册登录啥的自行领会，谢谢。
