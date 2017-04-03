@@ -1,6 +1,6 @@
 # how to use zuss {#how-to-use-zuss}
 
-本文为合作编辑
+本文为合作编辑，感谢各位合作者的辛勤付出：lyic，imzbb，HDsky
 
 最后编辑日期为：2017/4/3
 
