@@ -8,11 +8,13 @@
 
 向下拉到SSR协议&混淆设置，将协议修改为auth\_sha1\_v4，混淆方式修改为tls1.2\_ticket\_auth
 
+![](/assets/1.png)
+
 ## 2.然后我们来看操作系统的设置
 
 ### 1.Microsoft Windows
 
-首先到[https://github.com/shadowsocksr/shadowsocksr-csharp/releases](https://github.com/shadowsocksr/shadowsocksr-csharp/releases) 下载最新版本的ShadowSocksR
+首先到[这里下载](https://github.com/shadowsocksr/shadowsocksr-csharp/releases) 下载最新版本的ShadowSocksR
 
 下载完之后，解压，运行，导入节点
 
@@ -20,7 +22,7 @@
 
 请确保你安装了.NET Framework运行时（对于Windows 8及更新版本的Windows会自带4.0以上版本；对于Windows Vista和Windows 7会自带2.0版本），可以先尝试运行ShadowsocksR-dotnet4.0.exe，如果出现错误再尝试运行ShadowsocksR-dotnet2.0.exe。
 
-如果都错误那就是没有安装（比如说Windows XP），请到微软官网下载安装.NET Framework运行时4.0版本：[https://www.microsoft.com/zh-CN/download/details.aspx?id=17851](https://www.microsoft.com/zh-CN/download/details.aspx?id=17851)
+如果都错误那就是没有安装（比如说Windows XP），请到微软官网下载安装.NET Framework运行时4.0版本：[点击下载](https://www.microsoft.com/zh-CN/download/details.aspx?id=17851)
 
 打开以后会弹出一个添加服务器的窗口，先关闭它。
 
@@ -38,7 +40,7 @@ GFWList：只有部分被墙的网站才走代理，这个列表可能更新不�
 
 开启系统代理为PAC模式
 
-1. 2Apple iOS
+### 2.Apple iOS
 
 iOS上有三个客户端可以使用，分别是Surge、 Shadowrocket 和 Potatso
 
@@ -48,7 +50,7 @@ iOS上有三个客户端可以使用，分别是Surge、 Shadowrocket 和 Potats
 
 第一次运行会弹出一个创建VPN的窗口，点击Allow，再输入密码或进行Touch ID认证，然后重新点击连接。
 
-1. Android
+### 3.Android
 
-首先请下载安装APP [https://github.com/shadowsocksr/shadowsocksr-android/releases](https://github.com/shadowsocksr/shadowsocksr-android/releases)
+首先请下载安装APP [点此下载](https://github.com/shadowsocksr/shadowsocksr-android/releases)
 
