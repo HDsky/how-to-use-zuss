@@ -70,7 +70,19 @@ GFWList：只有部分被墙的网站才走代理，这个列表可能更新不�
 
 ### 2.Apple iOS
 
-iOS上有三个客户端可以使用，分别是Surge、 Shadowrocket 和 Potatso
+iOS上推荐这四个客户端使用，分别是Surge、Shadowrocket 和 Potatso以及Wingy
+
+下载地址如下
+
+Surge：[点此下载](https://itunes.apple.com/cn/app/surge-web-developer-tool-and-proxy-utility/id1040100637?mt=8)
+
+Shadowrocket：[点此下载](https://itunes.apple.com/cn/app/shadowrocket/id932747118?mt=8)
+
+Potatso：[点此下载](https://itunes.apple.com/cn/app/%E5%9C%9F%E8%B1%86%E4%B8%9D-potatso-%E5%BC%BA%E5%A4%A7%E7%9A%84%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/id1070901416?mt=8)
+
+Wingy：[点此下载](https://itunes.apple.com/cn/app/shadowsocks-wingy-proxy-for-http-socks5-ss/id1148026741?mt=8)
+
+下面以Shadowrocket为例，介绍下ios端的使用。
 
 打开Shadowrocket，点击右上角的+号，类型选 ShadowsocksR，依次按照节点说明填入服务器地址、代理端口、密码、加密方式，并且设置混淆和协议，然后点击右上角的Done就配置完了。
 
