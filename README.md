@@ -8,7 +8,7 @@
 
 向下拉到SSR协议&混淆设置，将协议修改为auth\_sha1\_v4，混淆方式修改为tls1.2\_ticket\_auth
 
-![](/assets/1.png)
+![](/assets/chaos.png)
 
 ## 2.然后我们来看操作系统的设置
 
@@ -16,15 +16,17 @@
 
 首先到[这里下载](https://github.com/shadowsocksr/shadowsocksr-csharp/releases) 下载最新版本的ShadowSocksR
 
-下载完之后，解压，运行，导入节点
+#### 1.1首先是解压
 
-首先是解压，然后得到这个目录：
+然后得到这个目录：
 
 ![](/assets/unzip.png)
 
 请确保你安装了.NET Framework运行时（对于Windows 8及更新版本的Windows会自带4.0以上版本；对于Windows Vista和Windows 7会自带2.0版本），可以先尝试运行ShadowsocksR-dotnet4.0.exe，如果出现错误再尝试运行ShadowsocksR-dotnet2.0.exe。
 
 如果都错误那就是没有安装（比如说Windows XP），请到微软官网下载安装.NET Framework运行时4.0版本：[点击下载](https://www.microsoft.com/zh-CN/download/details.aspx?id=17851)
+
+#### 1.2添加节点
 
 打开以后会弹出一个添加服务器的窗口，先关闭它。
 
@@ -33,6 +35,10 @@
 向下拉直到出现二维码
 
 在系统托盘处找到小飞机图标，点击右键-二维码扫描。弹出窗口后点确定。
+
+![](/assets/fly.png)
+
+然后继续右键
 
 模式的选择
 
