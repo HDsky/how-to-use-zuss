@@ -1,6 +1,6 @@
 # how to use zuss {#how-to-use-zuss}
 
-本文参考了[https://www.zhaoj.in/read-3736.html](https://www.zhaoj.in/read-3736.html)
+
 
 1. 面板里的配置
 
@@ -44,13 +44,11 @@ GFWList：只有部分被墙的网站才走代理，这个列表可能更新不�
 
 iOS上有三个客户端可以使用，分别是Surge、 Shadowrocket 和 Potatso
 
- 然而两个都是付费的，希望获取免费Shadowrocket账号的请联系群主。
+然而两个都是付费的，希望获取免费Shadowrocket账号的请联系群主。
 
 打开Shadowrocket，点击右上角的+号，类型选 ShadowsocksR，依次按照节点说明填入服务器地址、代理端口、密码、加密方式，并且设置混淆和协议，然后点击右上角的Done就配置完了。
 
-![25](export/assets/25.png)
 
-![26](export/assets/26.png)
 
 第一次运行会弹出一个创建VPN的窗口，点击Allow，再输入密码或进行Touch ID认证，然后重新点击连接。
 
