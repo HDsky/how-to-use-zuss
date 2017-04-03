@@ -8,7 +8,7 @@
 
 向下拉到SSR协议&混淆设置，将协议修改为auth\_sha1\_v4，混淆方式修改为tls1.2\_ticket\_auth
 
-![](/assets/chaos.png)
+![](/images/chaos.png)
 
 ## 2.然后我们来看操作系统的设置
 
