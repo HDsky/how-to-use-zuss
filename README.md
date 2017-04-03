@@ -12,7 +12,7 @@
 
 ## 2.然后我们来看操作系统的设置
 
-### 1.Microsoft Windows
+### 1.Windows客户端
 
 首先到[这里下载](https://github.com/shadowsocksr/shadowsocksr-csharp/releases) 下载最新版本的ShadowSocksR
 
