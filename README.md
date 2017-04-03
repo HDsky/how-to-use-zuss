@@ -12,7 +12,7 @@
 
 ~~向下拉到SSR协议&混淆设置，将协议修改为auth\_sha1\_v4，混淆方式修改为tls1.2\_ticket\_auth（可以不做这些改动）~~
 
-![](/images/chaos.png)
+![](/assets/chaos.png)
 
 ## 2.然后我们来看操作系统的设置
 
@@ -24,7 +24,7 @@
 
 然后得到这个目录：
 
-![](/images/unzip.png)
+![](/assets/unzip.png)
 
 请确保你安装了.NET Framework运行时（对于Windows 8及更新版本的Windows会自带4.0以上版本；对于Windows Vista和Windows 7会自带2.0版本），可以先尝试运行ShadowsocksR-dotnet4.0.exe，如果出现错误再尝试运行ShadowsocksR-dotnet2.0.exe。
 
@@ -34,26 +34,28 @@
 
 打开以后会弹出一个添加服务器的窗口，先关闭它。
 
-点开面板右侧的节点列表，再点你想要建立连接的节点
+点开面板右侧的节点列表，再点你想要建立连接的节点![](/assets/table0.png)![](/assets/table1.png)
 
-![](/images/table.png)
+![](/assets/table2.png)![](/assets/table3.png)
 
 向下拉直到出现二维码，保持网页的开启状态
 
 在系统托盘处找到小飞机图标，点击右键-二维码扫描。弹出窗口后点确定。
 
-![](/images/fly.png)
+![](/assets/fly.png)
 
-![](/images/erweima.png)
+![](/assets/erweima.png)
 
 然后继续右键选择-服务器-选择你刚刚添加的节点
+
+![](/assets/server.png)
 
 #### 1.3模式的选择
 
 主要能选择的模式有两种，一种是全局模式，另一种则是PAC模式，在这里我们推荐使用PAC模式。（值得注意的是，Shadowsocks仅能作为网页代理使用，在一些软件中使用需配合软件自带的代理设置或配合socks代理转http的软件，在此不做描述）
 
-全局模式：全局模式就是你是用浏览器访问的所有网站都通过代理来访问。
-而PAC模式则是通过调整PAC文件来控制哪些网站走代理，哪些网站不通过代理访问。
+全局模式：全局模式就是你是用浏览器访问的所有网站都通过代理来访问。  
+而PAC模式则是通过调整PAC文件来控制哪些网站走代理，哪些网站不通过代理访问。  
 **下面介绍两个个PAC文件：**
 
 绕过大陆IP：所有出国流量不管有没有被墙都走代理；
@@ -64,13 +66,15 @@ GFWList：只有部分被墙的网站才走代理，这个列表可能更新不�
 
 然后开启系统代理为PAC模式
 
+![](/assets/changePAC.png)
+
 ### 2.Apple iOS
 
 iOS上有三个客户端可以使用，分别是Surge、 Shadowrocket 和 Potatso
 
 打开Shadowrocket，点击右上角的+号，类型选 ShadowsocksR，依次按照节点说明填入服务器地址、代理端口、密码、加密方式，并且设置混淆和协议，然后点击右上角的Done就配置完了。
 
-![](/images/Shadowrocket.png)
+![](/assets/Shadowrocketios.png)
 
 第一次运行会弹出一个创建VPN的窗口，点击Allow，再输入密码或进行Touch ID认证，然后重新点击连接。
 
