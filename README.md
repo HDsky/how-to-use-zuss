@@ -20,7 +20,7 @@
 
 然后得到这个目录：
 
-![](/assets/unzip.png)
+![](/images/unzip.png)
 
 请确保你安装了.NET Framework运行时（对于Windows 8及更新版本的Windows会自带4.0以上版本；对于Windows Vista和Windows 7会自带2.0版本），可以先尝试运行ShadowsocksR-dotnet4.0.exe，如果出现错误再尝试运行ShadowsocksR-dotnet2.0.exe。
 
@@ -36,9 +36,9 @@
 
 在系统托盘处找到小飞机图标，点击右键-二维码扫描。弹出窗口后点确定。
 
-![](/assets/fly.png)
+![](/images/fly.png)
 
-![](/assets/erweima.png)
+![](/images/erweima.png)
 
 然后继续右键选择-服务器-选择你刚刚添加的节点
 
@@ -58,7 +58,7 @@ iOS上有三个客户端可以使用，分别是Surge、 Shadowrocket 和 Potats
 
 打开Shadowrocket，点击右上角的+号，类型选 ShadowsocksR，依次按照节点说明填入服务器地址、代理端口、密码、加密方式，并且设置混淆和协议，然后点击右上角的Done就配置完了。
 
-![](/assets/Shadowrocket.png)
+![](/images/Shadowrocket.png)
 
 第一次运行会弹出一个创建VPN的窗口，点击Allow，再输入密码或进行Touch ID认证，然后重新点击连接。
 
