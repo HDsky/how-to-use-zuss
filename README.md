@@ -4,12 +4,13 @@
 
 最后编辑日期为：2017/4/3
 
-Gitbook连接：https://hdsky.gitbooks.io/how-to-use-zuss/content/
+Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hdsky.gitbooks.io/how-to-use-zuss/content/)
+
 ## 1.面板里的配置
 
 注册登录啥的自行领会，谢谢。
 
-进入主页后点击右边的资料编辑
+~~进入主页后点击右边的资料编辑~~
 
 ~~向下拉到SSR协议&混淆设置，将协议修改为auth\_sha1\_v4，混淆方式修改为tls1.2\_ticket\_auth（可以不做这些改动）~~
 
@@ -79,9 +80,9 @@ Surge：[点此下载](https://itunes.apple.com/cn/app/surge-web-developer-tool-
 
 Shadowrocket：[点此下载](https://itunes.apple.com/cn/app/shadowrocket/id932747118?mt=8)
 
-Potatso：[点此下载](https://itunes.apple.com/cn/app/%E5%9C%9F%E8%B1%86%E4%B8%9D-potatso-%E5%BC%BA%E5%A4%A7%E7%9A%84%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7/id1070901416?mt=8)
+Potatso：[点此下载](https://itunes.apple.com/cn/app/土豆丝-potatso-强大的网络工具/id1070901416?mt=8)
 
-Wingy：[点此下载](https://itunes.apple.com/cn/app/shadowsocks-wingy-proxy-for-http-socks5-ss/id1148026741?mt=8)
+Wingy：[点此下载](https://itunes.apple.com/cn/app/shadowsocks-wingy-proxy-for-http-socks5-ss/id1148026741?mt=8)（付费版）\| [点此下载（免费版）](https://itunes.apple.com/cn/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8)
 
 下面以Shadowrocket为例，介绍下ios端的使用。
 
