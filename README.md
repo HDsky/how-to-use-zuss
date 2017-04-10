@@ -61,7 +61,7 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 主要能选择的模式有两种，一种是**全局模式**，另一种则是**PAC模式**，在这里我们推荐使用PAC模式。（值得注意的是，Shadowsocks仅能作为网页代理使用，在一些软件中使用需配合软件自带的代理设置或配合socks代理转http的软件，在此不做描述）
 
 * 全局模式：全局模式就是你是用浏览器访问的所有网站都通过代理来访问。  
-* PAC模式则是通过调整PAC文件来控制哪些网站走代理，哪些网站不通过代理访问。  
+* PAC模式：通过调整PAC文件来控制哪些网站走代理，哪些网站不通过代理访问。  
 
 **下面介绍两个个PAC文件：**
 
@@ -83,9 +83,7 @@ iOS上推荐这四个客户端使用，分别是
 [Potatso](https://itunes.apple.com/cn/app/土豆丝-potatso-强大的网络工具/id1070901416?mt=8)以及
 Wingy：[（付费版）](https://itunes.apple.com/cn/app/shadowsocks-wingy-proxy-for-http-socks5-ss/id1148026741?mt=8)[（免费版）](https://itunes.apple.com/cn/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8)。
 
-下面以Shadowrocket为例，介绍下ios端的使用。
-
-推荐使用二维码扫描的方式添加节点，[参考windows客户端即可](#添加节点)。
+推荐使用**二维码扫描**的方式添加节点，[参考windows客户端即可](#添加节点)。
 
 第一次运行会弹出一个创建VPN的窗口，点击Allow，再输入密码或进行Touch ID认证，然后重新点击连接。
 
@@ -93,7 +91,7 @@ Wingy：[（付费版）](https://itunes.apple.com/cn/app/shadowsocks-wingy-prox
 
 首先[下载安装APP](https://github.com/shadowsocksr/shadowsocksr-android/releases)。
 
-配置过程与IOS客户端类似，也推荐用二维码扫描的方式添加节点（服务器）。
+配置过程与IOS客户端类似，也推荐用二维码扫描的方式添加节点。
 
 
 
