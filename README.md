@@ -15,7 +15,7 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 ## 客户端设置
 
 * [Windows](#Windows) 
-* [Apple iOS](#Apple iOS)
+* [Apple iOS](#Apple-iOS)
 * [Android](#Android)
 * [Linux](#Linux)
 
