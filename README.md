@@ -63,7 +63,7 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 * 全局模式：全局模式就是你是用浏览器访问的所有网站都通过代理来访问。  
 * PAC模式：通过调整PAC文件来控制哪些网站走代理，哪些网站不通过代理访问。  
 
-**下面介绍两个个PAC文件：**
+**两个PAC文件：**
 
 * 绕过大陆IP：所有出国流量不管有没有被墙都走代理；
 
