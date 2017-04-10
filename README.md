@@ -8,13 +8,18 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 
 ## 面板
 
-由于面板可视化界面以及非常清晰明了，在此不做过多赘述。  
+由于面板可视化界面已经非常清晰明了，在此不做过多赘述。  
 
 只因面板上的 All-in-One 更新不及时，才作此教程对大家在客户端的设置做个指引。
 
 ## 客户端设置
 
-### Windows客户端
+* [Windows](#Windows) 
+* [Apple iOS](#Apple iOS)
+* [Android](#Android)
+* [Linux](#Linux)
+
+### Windows
 
 #### 下载
 [下载最新版本的ShadowSocksR](https://github.com/shadowsocksr/shadowsocksr-csharp/releases) 
@@ -93,5 +98,7 @@ Wingy：[（付费版）](https://itunes.apple.com/cn/app/shadowsocks-wingy-prox
 
 配置过程与IOS客户端类似，也推荐用二维码扫描的方式添加节点。
 
+### Linux
 
+推荐使用[Python client](https://github.com/breakwa11/shadowsocks-rss/wiki/Python-client-setup-%28Mult-language%29)。
 
