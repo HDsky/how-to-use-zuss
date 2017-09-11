@@ -83,13 +83,14 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 
 ### Apple iOS
 
-iOS上推荐这五个客户端使用，分别是
+iOS上推荐这六个客户端使用，分别是
 [Surge](https://itunes.apple.com/us/app/surge-web-developer-tool-and-proxy-utility/id1040100637?mt=8)、
 [Shadowrocket](https://appsto.re/us/UDjM3.i)和
 [Potatso](https://itunes.apple.com/cn/app/土豆丝-potatso-强大的网络工具/id1070901416?mt=8)以及
 Wingy：[（付费版）](https://itunes.apple.com/cn/app/shadowsocks-wingy-proxy-for-http-socks5-ss/id1148026741?mt=8)[（免费版）](https://itunes.apple.com/cn/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8)、
-[Potatso Lite](https://itunes.apple.com/cn/app/potatso-lite-%E5%9C%9F%E8%B1%86%E4%B8%9D%E5%85%A5%E9%97%A8%E7%89%88/id1239860606?mt=8)
->其中因为受中国相关政策的影响，苹果公司已对前四个软件在中国区进行了下架处理，即在中国区仅能下载到Potatso Lite这一款应用，如需要换区请参考[此处链接](http://www.mk52.cn/jiaocheng/2053.html)，对换区造成的其他后果自负，望周知。
+[Potatso Lite](https://itunes.apple.com/cn/app/potatso-lite-%E5%9C%9F%E8%B1%86%E4%B8%9D%E5%85%A5%E9%97%A8%E7%89%88/id1239860606?mt=8)、
+[Detour](https://itunes.apple.com/cn/app/detour-%E4%B8%80%E6%AC%BE%E4%BD%8E%E8%B0%83%E5%88%B0%E5%AE%B6%E7%9A%84%E5%8F%8Cs%E5%AE%A2%E6%88%B7%E7%AB%AF/id1260141606?mt=8)
+>其中因为受中国相关政策的影响，苹果公司已对前四个软件在中国区进行了下架处理，即在中国区能下载到Potatso Lite和Detour这两款应用，如需要换区请参考[此处链接](http://www.mk52.cn/jiaocheng/2053.html)，对换区造成的其他后果自负，望周知。
 
 推荐使用**二维码扫描**的方式添加节点，[参考windows客户端即可](#添加节点)。
 
