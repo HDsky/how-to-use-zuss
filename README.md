@@ -2,15 +2,15 @@
 
 本文为合作编辑，感谢各位合作者的辛勤付出：lyic，imzbb，HDsky
 
-最后编辑日期为：2017/4/10
+最后编辑日期为：2017/9/11
 
 Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hdsky.gitbooks.io/how-to-use-zuss/content/)
+>注意：因为ShadowSocksR的开发者已经宣布停止继续开发该项目并删除了之前的仓库，下面提供的下载链接是他人备份的仓库，当然如果你喜欢原版的ShadowSocks的话也是是可以使用原版的ShadowSocks，建议寻求可信赖的下载取道，在下载后进行校验。
 
 ## 面板
 
 由于面板可视化界面已经非常清晰明了，在此不做过多赘述。  
-
-只因面板上的 All-in-One 更新不及时，才作此教程对大家在客户端的设置做个指引。
+作此教程对大家在客户端的设置做个指引。
 
 ## 客户端设置
 
@@ -22,7 +22,8 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 ### Windows
 
 #### 下载
-[下载最新版本的ShadowSocksR](https://github.com/shadowsocksr/shadowsocksr-csharp/releases) 
+
+[下载最新版本的ShadowSocksR](https://github.com/ssrbackup/shadowsocks-rss) 
 
 #### 解压
 
@@ -74,7 +75,7 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 
 * GFWList：只有部分被墙的网站才走代理，这个列表可能更新不及时；
 
-根据自己的需求选择不同的PAC文件并更新。
+根据自己的需求选择不同的PAC文件并更新，在此建议新用户可以采用GFWList的PAC模式。
 
 然后开启系统代理为PAC模式
 
@@ -82,11 +83,13 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 
 ### Apple iOS
 
-iOS上推荐这四个客户端使用，分别是
-[Surge](https://itunes.apple.com/cn/app/surge-web-developer-tool-and-proxy-utility/id1040100637?mt=8)、
-[Shadowrocket](https://itunes.apple.com/cn/app/shadowrocket/id932747118?mt=8)和
+iOS上推荐这五个客户端使用，分别是
+[Surge](https://itunes.apple.com/us/app/surge-web-developer-tool-and-proxy-utility/id1040100637?mt=8)、
+[Shadowrocket](https://appsto.re/us/UDjM3.i)和
 [Potatso](https://itunes.apple.com/cn/app/土豆丝-potatso-强大的网络工具/id1070901416?mt=8)以及
-Wingy：[（付费版）](https://itunes.apple.com/cn/app/shadowsocks-wingy-proxy-for-http-socks5-ss/id1148026741?mt=8)[（免费版）](https://itunes.apple.com/cn/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8)。
+Wingy：[（付费版）](https://itunes.apple.com/cn/app/shadowsocks-wingy-proxy-for-http-socks5-ss/id1148026741?mt=8)[（免费版）](https://itunes.apple.com/cn/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8)、
+[Potatso Lite](https://itunes.apple.com/cn/app/potatso-lite-%E5%9C%9F%E8%B1%86%E4%B8%9D%E5%85%A5%E9%97%A8%E7%89%88/id1239860606?mt=8)
+>其中因为受中国相关政策的影响，苹果公司已对前四个软件在中国区进行了下架处理，即在中国区仅能下载到Potatso Lite这一款应用，如需要换区请参考[此处链接](http://www.mk52.cn/jiaocheng/2053.html)，对换区造成的其他后果自负，望周知。
 
 推荐使用**二维码扫描**的方式添加节点，[参考windows客户端即可](#添加节点)。
 
@@ -94,11 +97,63 @@ Wingy：[（付费版）](https://itunes.apple.com/cn/app/shadowsocks-wingy-prox
 
 ### Android
 
-首先[下载安装APP](https://github.com/shadowsocksr/shadowsocksr-android/releases)。
+首先[下载安装APP](https://github.com/ssrbackup/shadowsocks-rss)。
 
 配置过程与IOS客户端类似，也推荐用二维码扫描的方式添加节点。
 
 ### Linux
 
-推荐使用[Python client](https://github.com/breakwa11/shadowsocks-rss/wiki/Python-client-setup-%28Mult-language%29)。
+推荐使用[Python client](https://github.com/ssrbackup/shadowsocksr)。
+以下以Ubuntu16.04为例
 
+1.先安装git并下载shadowsocksr-python
+```
+sudo apt install git
+git clone https://github.com/ssrbackup/shadowsocksr.git
+```
+2.进入刚下载的目录中的shadowsocks文件夹
+```
+cd shadowsocksr-manyuser/shadowsocks
+```
+3.运行
+
+参数说明：-p 端口 -k 密码  -m 加密方式 -o 混淆插件
+```
+python local.py -s server_ip -p 443 -k password -m aes-256-cfb -o http_simple
+```
+
+如果要后台运行：
+```
+python local.py -s server_ip -p 443 -k password -m aes-256-cfb -d start
+```
+如果要停止/重启：
+```
+python local.py -d stop/restart
+```
+查看日志：
+```
+tail -f /var/log/shadowsocks.log
+```
+4.进阶
+其实可以通过建立json文件的方式来实现代理的开启。
+在面板中已经有写好的json文件可以直接拷贝下来，现在当前目录建立一个文件。
+```
+vi ssr.json
+```
+然后把拷贝好的内容粘贴进去。使用下面的命令就能运行了（其中<PATH>为你放置文件的目录）
+```
+python local.py -c <PATH>/ssr.json
+```
+后台运行：
+```
+python local.py -c <PATH>/ssr.json -d start
+```
+如果要停止/重启：
+```
+python local.py -d stop/restart
+```
+5.在设置完成后还需要对Ubuntu系统进行设置，打开Ubuntu的设置-网络-代理设置，将Socks的地方设置为127.0.0.1 端口号设置为1080
+
+6.完成了上面的设置后，浏览网页是全部进入代理模式的，所以还没达到完美。
+需要在浏览器中安装一个插件Proxy SwitchyOmega，具体的教程请参考下面的链接，在此不做详细描述。(只看Proxy SwitchyOmega设置那一段就可以啦)
+http://wxhp.org/shadowsocksr.html
