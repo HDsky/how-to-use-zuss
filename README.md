@@ -18,7 +18,7 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 * [Apple iOS](#apple-ios)
 * [Android](#android)
 * [Linux](#linux)
-* [Mac](#Mac)
+* [Mac](#mac)
 
 ### Windows
 
