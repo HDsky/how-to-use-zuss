@@ -2,10 +2,10 @@
 
 本文为合作编辑，感谢各位合作者的辛勤付出：lyic，imzbb，HDsky
 
-最后编辑日期为：2017/9/12
+最后编辑日期为：2017/9/17
 
 Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hdsky.gitbooks.io/how-to-use-zuss/content/)
->注意：因为ShadowSocksR的开发者已经宣布停止继续开发该项目并删除了之前的仓库，下面提供的下载链接是他人备份的仓库，当然如果你喜欢原版的ShadowSocks的话也是是可以使用原版的ShadowSocks，建议寻求可信赖的下载取道，在下载后进行校验。
+>注意：因为ShadowSocksR的开发者已经宣布停止继续开发该项目并删除了之前的仓库，下面提供的下载链接是他人备份的仓库，当然如果你喜欢原版的ShadowSocks的话也是是可以使用原版的ShadowSocks，建议寻求可信赖的下载取道，并在下载后进行校验。（其中提供的win版本是我自己修改过的。
 
 ## 面板
 
@@ -18,12 +18,13 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 * [Apple iOS](#apple-ios)
 * [Android](#android)
 * [Linux](#linux)
+* [Mac](#Mac)
 
 ### Windows
 
 #### 下载
 
-[下载最新版本的ShadowSocksR](https://github.com/ssrbackup/shadowsocks-rss) 
+[下载ShadowSocksR](https://github.com/HDsky/gfwlist/raw/master/ssr-win-by-hdsky.7z) 
 
 #### 解压
 
@@ -90,7 +91,7 @@ iOS上推荐这六个客户端使用，分别是
 Wingy：[（付费版）](https://itunes.apple.com/cn/app/shadowsocks-wingy-proxy-for-http-socks5-ss/id1148026741?mt=8)[（免费版）](https://itunes.apple.com/cn/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8)、
 [Potatso Lite](https://itunes.apple.com/cn/app/potatso-lite-%E5%9C%9F%E8%B1%86%E4%B8%9D%E5%85%A5%E9%97%A8%E7%89%88/id1239860606?mt=8)、
 [Detour](https://itunes.apple.com/cn/app/detour-%E4%B8%80%E6%AC%BE%E4%BD%8E%E8%B0%83%E5%88%B0%E5%AE%B6%E7%9A%84%E5%8F%8Cs%E5%AE%A2%E6%88%B7%E7%AB%AF/id1260141606?mt=8)
->其中因为受中国相关政策的影响，苹果公司已对前四个软件在中国区进行了下架处理，即在中国区能下载到Potatso Lite和Detour这两款应用，如需要换区请参考[此处链接](http://www.mk52.cn/jiaocheng/2053.html)，对换区造成的其他后果自负，望周知。
+>其中因为受中国相关政策以及作者个人意志的影响，前五个软件在中国区进行了下架处理，即在中国区只能下载上面提到的Detour这款应用，如需要更换其他区域下载上面提到的您的已购软件请参考[此处链接](http://www.mk52.cn/jiaocheng/2053.html)，对换区造成的其他后果自负，望周知。（在此十分建议各位拥有一个外区的账号并使用喜欢的形式购买 Shadowrocket，它绝对会让你喜欢。
 
 推荐使用**二维码扫描**的方式添加节点，[参考windows客户端即可](#添加节点)。
 
@@ -158,3 +159,8 @@ python local.py -d stop/restart
 6.完成了上面的设置后，浏览网页是全部进入代理模式的，所以还没达到完美。
 需要在浏览器中安装一个插件Proxy SwitchyOmega，具体的教程请参考下面的链接，在此不做详细描述。(只看Proxy SwitchyOmega设置那一段就可以啦)
 http://wxhp.org/shadowsocksr.html
+
+
+### Mac
+
+暂无，请参考网上的其他教程。
