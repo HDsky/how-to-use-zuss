@@ -30,16 +30,16 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 
 得到这个目录：
 
-![](/assets/unzip.png)
+![![](/assets/unzip.png)](/assets/SSR.png)
 
 请确保你安装了.NET Framework
 
 * Windows 8及更新版本的Windows会自带4.0或更新版本；
 * 对于Windows Vista和Windows 7会自带2.0版本。  
 
-可以先尝试运行ShadowsocksR-dotnet**4.0**.exe，如果出现错误再尝试运行ShadowsocksR-dotnet**2.0**.exe。
+可以先尝试运行ShadowsocksR.exe
 
-如果都错误那就请到微软官网[下载安装 .NET Framework 运行时 4.0 版](https://www.microsoft.com/zh-CN/download/details.aspx?id=17851)。之后启动ShadowsocksR-dotnet**4.0**.exe。
+如果出现运行错误那就请到微软官网[下载安装 .NET Framework 运行库 4.0 版](https://www.microsoft.com/zh-CN/download/details.aspx?id=17851)。之后启动ShadowsocksR.exe。
 
 #### 添加节点
 
@@ -47,15 +47,15 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 
 看到**面板**下方的“连接信息 以及 All-in-One(快速配置指导)”，点击 SHADOWSOCKSR	 -> WINDOWS，看到 SSR 订阅地址，复制“普通端口地址”后面的链接，暂时不要理会“单端口多用户端口地址”链接。
 
-tu
+![](/assets/SSR_book.png)
 
-在系统托盘处找到小飞机图标，单击右键进入菜单，选择服务器—>SSR服务器订阅设置，将订阅地址设置为普通端口地址，其他参数留空，确定之后再更新 SSR 服务器订阅。
+在系统托盘处找到小飞机图标，单击右键进入菜单，选择服务器—>SSR服务器订阅设置，将订阅地址设置为普通端口地址，其他参数留空，确定之后再更新 SSR 服务器订阅（不通过代理）。
 
-tu
+![](/assets/SSR_02.png)
 
 然后继续右键选择-服务器-选择一个刚刚通过订阅添加的节点
 
-![](/assets/server.png)
+![](/assets/SSR_03.png)
 
 #### 系统代理模式的选择
 
@@ -194,6 +194,9 @@ python local.py -d stop/restart
 在浏览器右上角点击插件按钮，然后选择自动切换规则模式，这样只要在规则列表里面的网站都会翻墻访问。
 
 对于没在翻墻规则里面的网站，可以自己添加规则（但资源无法加载时，插件图标会有提示，点击后就可以看到快速添加方法）
+
+#### 还原系统代理设置
+**打开Ubuntu的设置-网络-代理设置，将设置更改为不使用代理。**
 
 教程参考了下面的链接 http://wxhp.org/shadowsocksr.html
 
