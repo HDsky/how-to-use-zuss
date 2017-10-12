@@ -175,19 +175,21 @@ python local.py -d stop/restart
 
 安装好后点击左侧的新增情景模式，我们先新增一个 SS 代理。
 
-tu1
+![](/assets/SwitchyOmega1.png)
 
 像这样设置
 
-tu2
+![](/assets/SwitchyOmega2.png)
 
 然后新增一个切换模式
 
-tu3
+![](/assets/SwitchyOmega3.png)
+
 
 像这样设置
+* 填入的地址为https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
 
-tu4
+![](/assets/SwitchyOmega4.png)
 
 在浏览器右上角点击插件按钮，然后选择自动切换规则模式，这样只要在规则列表里面的网站都会翻墻访问。
 
