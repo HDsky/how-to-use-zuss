@@ -2,10 +2,10 @@
 
 本文为合作编辑，感谢各位合作者的辛勤付出：lyic，imzbb，HDsky
 
-最后编辑日期为：2017/9/17
+最后编辑日期为：2017/10/11
 
 Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hdsky.gitbooks.io/how-to-use-zuss/content/)
->注意：因为ShadowSocksR的开发者已经宣布停止继续开发该项目并删除了之前的仓库，下面提供的下载链接是他人备份的仓库，当然如果你喜欢原版的ShadowSocks的话也是是可以使用原版的ShadowSocks，建议寻求可信赖的下载取道，并在下载后进行校验。（其中提供的win版本是我自己修改过的。
+>注意：因为ShadowSocksR的开发者已经宣布停止继续开发该项目并删除了之前的仓库，下面提供的下载链接是他人备份的仓库，当然如果你更喜欢原版ShadowSocks的话也是可以的。建议寻求[可信赖的下载渠道](http://shadowsocks.org/en/download/clients.html)，并在下载后进行校验。
 
 ## 面板
 
@@ -24,7 +24,7 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 
 #### 下载
 
-[下载ShadowSocksR](https://github.com/HDsky/gfwlist/raw/master/ssr-win-by-hdsky.7z) 
+[下载 ShadowSocksR (with HDsky Mod)](https://github.com/HDsky/gfwlist/raw/master/ssr-win-by-hdsky.7z) 
 
 #### 解压
 
@@ -33,50 +33,46 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 ![](/assets/unzip.png)
 
 请确保你安装了.NET Framework
-  
-* Windows 8及更新版本的Windows会自带4.0以上版本；
+
+* Windows 8及更新版本的Windows会自带4.0或更新版本；
 * 对于Windows Vista和Windows 7会自带2.0版本。  
 
 可以先尝试运行ShadowsocksR-dotnet**4.0**.exe，如果出现错误再尝试运行ShadowsocksR-dotnet**2.0**.exe。
 
-如果都错误那就请到微软官网[下载安装.NET Framework运行时4.0版本](https://www.microsoft.com/zh-CN/download/details.aspx?id=17851)
+如果都错误那就请到微软官网[下载安装 .NET Framework 运行时 4.0 版](https://www.microsoft.com/zh-CN/download/details.aspx?id=17851)。之后启动ShadowsocksR-dotnet**4.0**.exe。
 
 #### 添加节点
 
 打开以后会弹出一个添加服务器的窗口，先关闭它。
 
-点开**面板**右侧的节点列表，再点你想要建立连接的节点
+看到**面板**下方的“连接信息 以及 All-in-One(快速配置指导)”，点击 SHADOWSOCKSR	 -> WINDOWS，看到 SSR 订阅地址，复制“普通端口地址”后面的链接，暂时不要理会“单端口多用户端口地址”链接。
 
-![](/assets/table0.png)
-![](/assets/table1.png)
-![](/assets/table2.png)
-![](/assets/table3.png)
+tu
 
-向下拉直到出现二维码，保持网页的开启状态
+在系统托盘处找到小飞机图标，单击右键进入菜单，选择服务器—>SSR服务器订阅设置，将订阅地址设置为普通端口地址，其他参数留空，确定之后再更新 SSR 服务器订阅。
 
-在系统托盘处找到小飞机图标，点击右键-二维码扫描。弹出窗口后点确定。
+tu
 
-![](/assets/fly.png)
-![](/assets/erweima.png)
-
-然后继续右键选择-服务器-选择你刚刚添加的节点
+然后继续右键选择-服务器-选择一个刚刚通过订阅添加的节点
 
 ![](/assets/server.png)
 
-#### 模式的选择
+#### 系统代理模式的选择
 
-主要能选择的模式有两种，一种是**全局模式**，另一种则是**PAC模式**，在这里我们推荐使用PAC模式。（值得注意的是，Shadowsocks仅能作为网页代理使用，在一些软件中使用需配合软件自带的代理设置或配合socks代理转http的软件，在此不做描述）
+主要能选择的系统代理模式有两种，一种是**全局模式**，另一种则是**PAC模式**，在这里我们推荐使用PAC模式。
 
-* 全局模式：全局模式就是你是用浏览器访问的所有网站都通过代理来访问。  
-* PAC模式：通过调整PAC文件来控制哪些网站走代理，哪些网站不通过代理访问。  
+>值得注意的是，ShadowsocksR仅设置了系统默认代理，在一些不读取使用系统默认代理设置的软件中使用需配合软件自带的代理设置或配合SOCKS5代理转http的软件，在此略过不表。
+
+* 全局模式：全局模式就是你是用浏览器（或其他支持系统代理的应用）访问的所有网站都通过SSR软件来访问。  
+* PAC模式：系统代理设置为PAC。通过PAC文件来控制哪些网站走代理，哪些网站不通过代理访问。  
 
 **两个PAC文件：**
 
-* 绕过大陆IP：所有出国流量不管有没有被墙都走代理；
+* 绕过大陆IP：判断IP地址国别，所有出国流量不管有没有被墙都走代理；
 
-* GFWList：只有部分被墙的网站才走代理，这个列表可能更新不及时；
+* GFWList：只有部分被墙的网站才走代理，但这个列表可能更新不及时；
 
-根据自己的需求选择不同的PAC文件并更新，在此建议新用户可以采用GFWList的PAC模式。
+根据自己的需求选择不同的PAC文件并更新，在此建议新用户可采用使用GFWList的PAC模式。
 
 然后开启系统代理为PAC模式
 
@@ -84,83 +80,122 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 
 ### Apple iOS
 
-iOS上推荐这六个客户端使用，分别是
-[Surge](https://itunes.apple.com/us/app/surge-web-developer-tool-and-proxy-utility/id1040100637?mt=8)、
-[Shadowrocket](https://appsto.re/us/UDjM3.i)和
-[Potatso](https://itunes.apple.com/cn/app/土豆丝-potatso-强大的网络工具/id1070901416?mt=8)以及
-Wingy：[（付费版）](https://itunes.apple.com/cn/app/shadowsocks-wingy-proxy-for-http-socks5-ss/id1148026741?mt=8)[（免费版）](https://itunes.apple.com/cn/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8)、
-[Potatso Lite](https://itunes.apple.com/cn/app/potatso-lite-%E5%9C%9F%E8%B1%86%E4%B8%9D%E5%85%A5%E9%97%A8%E7%89%88/id1239860606?mt=8)、
-[Detour](https://itunes.apple.com/cn/app/detour-%E4%B8%80%E6%AC%BE%E4%BD%8E%E8%B0%83%E5%88%B0%E5%AE%B6%E7%9A%84%E5%8F%8Cs%E5%AE%A2%E6%88%B7%E7%AB%AF/id1260141606?mt=8)
->其中因为受中国相关政策以及作者个人意志的影响，前五个软件在中国区进行了下架处理，即在中国区只能下载上面提到的Detour这款应用，如需要更换其他区域下载上面提到的您的已购软件请参考[此处链接](http://www.mk52.cn/jiaocheng/2053.html)，对换区造成的其他后果自负，望周知。（在此十分建议各位拥有一个外区的账号并使用喜欢的形式购买 Shadowrocket，它绝对会让你喜欢。
+对于非越狱设备，VPN 软件需要使用 Apple 在 iOS 9 中引入的新框架 Network Extension，请确保您设备的 iOS 版本足够支持客户端运行。
+我们推荐六个客户端，分别是[Surge](https://itunes.apple.com/us/app/surge-web-developer-tool-and-proxy-utility/id1040100637?mt=8)、[Shadowrocket](https://appsto.re/us/UDjM3.i)、[Potatso](https://itunes.apple.com/us/app/potatso-2/id1162704202?mt=8)、[Wingy（付费版）](https://itunes.apple.com/us/app/wingy-shadow-vpn-for-http-socks5-ss/id1148026741?mt=8)、[Wingy（免费版）](https://itunes.apple.com/us/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8)、[Potatso Lite](https://itunes.apple.com/us/app/potatso-lite/id1239860606?mt=8) 和 [Detour](https://itunes.apple.com/cn/app/detour-%E4%B8%80%E6%AC%BE%E4%BD%8E%E8%B0%83%E5%88%B0%E5%AE%B6%E7%9A%84%E5%8F%8Cs%E5%AE%A2%E6%88%B7%E7%AB%AF/id1260141606?mt=8)。
+>因受中国相关政策及作者个人意愿等影响，前五款软件已下架中国区 App Store，如您在中国区已购上述下架软件，那么需要更换您的 Apple ID 区域才能重新下载，请参考[此处](http://www.mk52.cn/jiaocheng/2053.html)，对换区造成的其他后果自负，望周知。（在此十分建议各位拥有一个非中国区 Apple ID 并使用喜欢的形式购买 Shadowrocket，它绝对会让你喜欢。
 
-推荐使用**二维码扫描**的方式添加节点，[参考windows客户端即可](#添加节点)。
+推荐使用**二维码扫描**的方式添加节点
 
-第一次运行会弹出一个创建VPN的窗口，点击Allow，再输入密码或进行Touch ID认证，然后重新点击连接。
+第一次运行会弹出一个创建VPN的窗口，点击允许/Allow，再输入密码或进行Touch ID/Face ID认证，然后重新点击连接。
 
 ### Android
 
 首先[下载安装APP](https://github.com/ssrbackup/shadowsocks-rss)。
 
-配置过程与IOS客户端类似，也推荐用二维码扫描的方式添加节点。
+配置过程与iOS客户端类似，也推荐用二维码扫描的方式添加节点。
 
 ### Linux
 
-推荐使用[Python client](https://github.com/ssrbackup/shadowsocksr)。
-以下以Ubuntu16.04为例
+推荐使用[Python client](https://github.com/ssrbackup/shadowsocksr)。以Ubuntu 16.04为例
 
-1.先安装git并下载shadowsocksr-python
-```
+#### 1. 下载 shadowsocksr-python
+
+```shell
 sudo apt install git
 git clone https://github.com/ssrbackup/shadowsocksr.git
 ```
-2.进入刚下载的目录中的shadowsocks文件夹
+或者
+
+```shell
+wget https://github.com/ssrbackup/shadowsocksr/archive/manyuser.zip
 ```
+
+#### 2. 进入刚下载的目录中的shadowsocks文件夹
+
+```shell
 cd shadowsocksr-manyuser/shadowsocks
 ```
-3.运行
+#### 3. 运行
 
-参数说明：-p 端口 -k 密码  -m 加密方式 -o 混淆插件
-```
+参数说明：-p 端口 -k 密码  -m 加密方式 -O 协议 -o 混淆
+```shell
 python local.py -s server_ip -p 443 -k password -m aes-256-cfb -o http_simple
 ```
 
 如果要后台运行：
-```
+```shell
 python local.py -s server_ip -p 443 -k password -m aes-256-cfb -d start
 ```
 如果要停止/重启：
-```
+```shell
 python local.py -d stop/restart
 ```
 查看日志：
-```
+```shell
 tail -f /var/log/shadowsocks.log
 ```
-4.进阶
-其实可以通过建立json文件的方式来实现代理的开启。
-在面板中已经有写好的json文件可以直接拷贝下来，现在当前目录建立一个文件。
-```
+#### 4. 进阶
+
+可以通过建立 JSON 文件的方式来实现代理的开启。
+在面板中已经有写好的 JSON 文件可以直接拷贝下来，现在当前目录建立一个文件。
+
+```shell
 vi ssr.json
 ```
-然后把拷贝好的内容粘贴进去。使用下面的命令就能运行了（其中<PATH>为你放置文件的目录）
+或者使用对新手更友好的nano编辑器
+
+```shell
+nano ssr.json
 ```
+
+然后把拷贝好的内容粘贴进去。使用下面的命令就能运行了（其中<PATH>为你放置文件的目录）
+
+```shell
 python local.py -c <PATH>/ssr.json
 ```
 后台运行：
-```
+```shell
 python local.py -c <PATH>/ssr.json -d start
 ```
 如果要停止/重启：
-```
+```shell
 python local.py -d stop/restart
 ```
-5.在设置完成后还需要对Ubuntu系统进行设置，打开Ubuntu的设置-网络-代理设置，将Socks的地方设置为127.0.0.1 端口号设置为1080
+#### 5. 设置系统代理
 
-6.完成了上面的设置后，浏览网页是全部进入代理模式的，所以还没达到完美。
-需要在浏览器中安装一个插件Proxy SwitchyOmega，具体的教程请参考下面的链接，在此不做详细描述。(只看Proxy SwitchyOmega设置那一段就可以啦)
-http://wxhp.org/shadowsocksr.html
+在设置完成后还需要对Ubuntu系统进行设置，打开Ubuntu的设置-网络-代理设置，将Socks的地方设置为127.0.0.1 端口号设置为1080
+
+#### 6. 对浏览器设置分流
+
+完成了上面的设置后，浏览网页是全部进入代理模式的，所以还没达到完美。
+需要在浏览器中安装一个插件Proxy SwitchyOmega。
+
+* 如果你用 **Chrome**：访问 [Chrome 应用商店安装 SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)。
+* 如果你用 **Mozilla Firefox**：访问 [Mozilla Add-Ons 安装 SwitchyOmega](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/)。
+
+安装好后点击左侧的新增情景模式，我们先新增一个 SS 代理。
+
+tu1
+
+像这样设置
+
+tu2
+
+然后新增一个切换模式
+
+tu3
+
+像这样设置
+
+tu4
+
+在浏览器右上角点击插件按钮，然后选择自动切换规则模式，这样只要在规则列表里面的网站都会翻墻访问。
+
+对于没在翻墻规则里面的网站，可以自己添加规则（但资源无法加载时，插件图标会有提示，点击后就可以看到快速添加方法）
+
+教程参考了下面的链接 http://wxhp.org/shadowsocksr.html
 
 
 ### Mac
 
-暂无，请参考网上的其他教程。
+未完待续
