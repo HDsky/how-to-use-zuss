@@ -90,7 +90,7 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 
 ### Android
 
-首先[下载安装APP](https://github.com/ssrbackup/shadowsocks-rss)。
+首先[下载安装APP](https://github.com/esdeathlove/panel-download/blob/master/ssr-android.apk?raw=true)。
 
 配置过程与iOS客户端类似，也推荐用二维码扫描的方式添加节点。
 
