@@ -2,15 +2,16 @@
 
 本文为合作编辑，感谢各位合作者的辛勤付出：lyic，imzbb，HDsky
 
-最后编辑日期为：2017/10/11
+最后编辑日期为：2017/12/15
 
 Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hdsky.gitbooks.io/how-to-use-zuss/content/)
 >注意：因为ShadowSocksR的开发者已经宣布停止继续开发该项目并删除了之前的仓库，下面提供的下载链接是他人备份的仓库，当然如果你更喜欢原版ShadowSocks的话也是可以的。建议寻求[可信赖的下载渠道](http://shadowsocks.org/en/download/clients.html)，并在下载后进行校验。
 
 ## 面板
 
-由于面板可视化界面已经非常清晰明了，在此不做过多赘述。  
-作此教程对大家在客户端的设置做个指引。
+由于面板可视化界面已经非常清晰明了，在此不做过多赘述。作此教程对大家在多平台客户端的设置做个指引。
+如果有什么不明白的请询问身边的朋友，不对**不善于学习的人**回答任何问题,包括一些智障问题。
+在此注意的是注册时默认使用的是ShadowSocksR的混淆设置，只能使用ShadowSocksR的客户端，如需要使用ShadowSocks的客户端，则需要在面板中对混淆以及协议或者加密方式进行修改，望周知
 
 ## 客户端设置
 
@@ -81,8 +82,8 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 ### Apple iOS
 
 对于非越狱设备，VPN 软件需要使用 Apple 在 iOS 9 中引入的新框架 Network Extension，请确保您设备的 iOS 版本足够支持客户端运行。
-我们推荐六个客户端，分别是[Surge](https://itunes.apple.com/us/app/surge-web-developer-tool-and-proxy-utility/id1040100637?mt=8)、[Shadowrocket](https://appsto.re/us/UDjM3.i)、[Potatso](https://itunes.apple.com/us/app/potatso-2/id1162704202?mt=8)、[Wingy（付费版）](https://itunes.apple.com/us/app/wingy-shadow-vpn-for-http-socks5-ss/id1148026741?mt=8)、[Wingy（免费版）](https://itunes.apple.com/us/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8)、[Potatso Lite](https://itunes.apple.com/us/app/potatso-lite/id1239860606?mt=8) 和 [Detour](https://itunes.apple.com/cn/app/detour-%E4%B8%80%E6%AC%BE%E4%BD%8E%E8%B0%83%E5%88%B0%E5%AE%B6%E7%9A%84%E5%8F%8Cs%E5%AE%A2%E6%88%B7%E7%AB%AF/id1260141606?mt=8)。
->因受中国相关政策及作者个人意愿等影响，前五款软件已下架中国区 App Store，如您在中国区已购上述下架软件，那么需要更换您的 Apple ID 区域才能重新下载，请参考[此处](http://www.mk52.cn/jiaocheng/2053.html)，对换区造成的其他后果自负，望周知。（在此十分建议各位拥有一个非中国区 Apple ID 并使用喜欢的形式购买 Shadowrocket，它绝对会让你喜欢。
+我们推荐六个客户端，分别是[Surge](https://itunes.apple.com/us/app/surge-web-developer-tool-and-proxy-utility/id1040100637?mt=8)、[Shadowrocket](https://appsto.re/us/UDjM3.i)、[Potatso](https://itunes.apple.com/us/app/potatso-2/id1162704202?mt=8)、[Wingy（付费版）](https://itunes.apple.com/us/app/wingy-shadow-vpn-for-http-socks5-ss/id1148026741?mt=8)、[Wingy（免费版）](https://itunes.apple.com/us/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8)、[Potatso Lite](https://itunes.apple.com/us/app/potatso-lite/id1239860606?mt=8)。
+>因受中国相关政策及作者个人意愿等影响，这五款软件已下架中国区 App Store，如您在中国区已购上述下架软件，那么需要更换您的 Apple ID 区域才能重新下载，请参考[此处](http://www.mk52.cn/jiaocheng/2053.html)，对换区造成的其他后果自负，望周知。（在此十分建议各位拥有一个非中国区 Apple ID 并使用喜欢的形式购买 Shadowrocket，它绝对会让你喜欢。
 
 推荐使用**二维码扫描**的方式添加节点
 
