@@ -10,7 +10,7 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 ## 面板
 
 由于面板可视化界面已经非常清晰明了，在此不做过多赘述。作此教程对大家在多平台客户端的设置做个指引。
-如果有什么不明白的请询问身边的朋友，不对**不善于学习的人**回答任何问题,包括一些智障问题。
+如果有什么不明白的请询问身边的朋友，不对**不善于学习的人**回答任何问题。
 在此注意的是注册时默认使用的是ShadowSocksR的混淆设置，只能使用ShadowSocksR的客户端，如需要使用ShadowSocks的客户端，则需要在面板中对混淆以及协议或者加密方式进行修改，望周知
 
 ## 客户端设置
@@ -84,7 +84,7 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 对于非越狱设备，VPN 软件需要使用 Apple 在 iOS 9 中引入的新框架 Network Extension，请确保您设备的 iOS 版本足够支持客户端运行。
 我们推荐五个客户端，分别是[Surge](https://itunes.apple.com/us/app/surge-web-developer-tool-and-proxy-utility/id1040100637?mt=8)、[Shadowrocket](https://appsto.re/us/UDjM3.i)、[Potatso](https://itunes.apple.com/us/app/potatso-2/id1162704202?mt=8)、[Wingy（付费版）](https://itunes.apple.com/us/app/wingy-shadow-vpn-for-http-socks5-ss/id1148026741?mt=8)、[Wingy（免费版）](https://itunes.apple.com/us/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8)、[Potatso Lite](https://itunes.apple.com/us/app/potatso-lite/id1239860606?mt=8)。
 >因受中国相关政策及作者个人意愿等影响，这五款软件已下架中国区 App Store，如您在中国区已购上述下架软件，那么需要更换您的 Apple ID 区域才能重新下载，请参考[此处](http://www.mk52.cn/jiaocheng/2053.html)，对换区造成的其他后果自负，望周知。（在此十分建议各位拥有一个非中国区 Apple ID 并使用喜欢的形式购买 Shadowrocket，它绝对会让你喜欢。
-在此之外，不对任何目前还在国区的代理软件进行推荐。1）我没用过；2）我只使用过上面的五款软件；3）你开心就好；
+在此之外，不对任何目前还在国区的代理软件进行推荐。1）我没用过；2）我只使用过上面的五款软件；
 可以使用**二维码扫描**的方式添加节点，通过代理软件中带有的二维码扫描功能，扫描面板里节点列表中的二维码即可完成对节点的添加工作。（注意：二维码有两种，一种是ShadowSocks一种是ShadowSocksR请根据代理软件对与这两种方式的支持情况酌情选择。）
 
 第一次运行会弹出一个创建VPN的窗口，点击允许/Allow，再输入密码或进行Touch ID/Face ID认证，然后重新点击连接。
