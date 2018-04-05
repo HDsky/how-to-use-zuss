@@ -215,4 +215,4 @@ Enjoy the free Internet.
 
 ### Mac
 
-未完待续
+可以使用[shadowsocks/ShadowsocksX\-NG: Next Generation of ShadowsocksX](https://github.com/shadowsocks/ShadowsocksX-NG)，配置方式与 window 版类似。
