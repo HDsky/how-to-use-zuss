@@ -186,27 +186,21 @@ python local.py -d stop/restart
 
 如果你无法访问上述提供的地址并完成安装，请从插件官网获取安装包或者其他帮助https://switchyomega.com/
 
-安装好后点击左侧的新增情景模式，我们先新增一个 SS 代理。
-
-![](/assets/SwitchyOmega1.png)
-
-像这样设置
-
-![](/assets/SwitchyOmega2.png)
-
-然后新增一个切换模式
-
-![](/assets/SwitchyOmega3.png)
+安装好后进入插件的设置界面在Proxy情景模式下按照如下图所示填写：
+![](/assets/proxy.png)
 
 
-像这样设置
+然后在Auto Switch情景模式下如下图填写：
+![](/assets/Autoproxy.png)
+
 * 填入的地址为https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
 
-![](/assets/SwitchyOmega4.png)
 
 在浏览器右上角点击插件按钮，然后选择自动切换规则模式，这样只要在规则列表里面的网站都会翻墻访问。
 
 对于没在翻墻规则里面的网站，可以自己添加规则（但资源无法加载时，插件图标会有提示，点击后就可以看到快速添加方法）
+
+![](/assets/switch.png)
 
 #### 7. 还原系统代理设置
 **打开Ubuntu的设置-网络-代理设置，将设置更改为不使用代理。**
