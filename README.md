@@ -217,4 +217,4 @@ Enjoy the free Internet.
 
 ## 参考文献
 
-小灰木头兔. Chrome+SwitchyOmega+Shadowsocks 图文教程完整篇[EB/OL]. http://wxhp.org/shadowsocksr.html.
+[1]小灰木头兔. Chrome+SwitchyOmega+Shadowsocks 图文教程完整篇[EB/OL]. http://wxhp.org/shadowsocksr.html.
