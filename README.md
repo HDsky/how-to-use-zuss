@@ -80,7 +80,7 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 
 ![](/assets/changePAC.png)
 
-可选：按照[浏览器插件设置](#Chrome&Firefox)对Chrome或Firefox进行插件的安装设置。
+``可选：按照[浏览器插件设置](#Chrome&Firefox)对Chrome或Firefox进行插件的安装设置。``
 
 Enjoy the free Internet.
 
@@ -211,7 +211,7 @@ Enjoy the free Internet.
 
 可以使用[ShadowsocksX\-NG](https://github.com/shadowsocks/ShadowsocksX-NG)，配置方式与 window 版类似。
 
-可选：按照[浏览器插件设置](#Chrome&Firefox)对Chrome或Firefox进行插件的安装设置。
+``可选：按照[浏览器插件设置](#Chrome&Firefox)对Chrome或Firefox进行插件的安装设置。``
 
 
 
