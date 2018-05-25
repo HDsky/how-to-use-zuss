@@ -2,7 +2,7 @@
 
 本文为合作编辑，感谢各位合作者的辛勤付出：lyic，imzbb，HDsky
 
-最后编辑日期为：2018/3/27
+最后编辑日期为：2018/5/25
 
 Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hdsky.gitbooks.io/how-to-use-zuss/content/)
 >注意：因为ShadowSocksR的开发者已经宣布停止继续开发该项目并删除了之前的仓库，下面提供的下载链接是他人备份的仓库，当然如果你更喜欢原版ShadowSocks的话也是可以的。建议寻求[可信赖的下载渠道](http://shadowsocks.org/en/download/clients.html)，并在下载后进行校验。
@@ -183,6 +183,8 @@ python local.py -d stop/restart
 
 * 如果你用 **Chrome**：访问 [Chrome 应用商店安装 SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)。
 * 如果你用 **Mozilla Firefox**：访问 [Mozilla Add-Ons 安装 SwitchyOmega](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/)。
+
+如果你无法访问上述提供的地址并完成安装，请从插件官网获取安装包或者其他帮助https://switchyomega.com/
 
 安装好后点击左侧的新增情景模式，我们先新增一个 SS 代理。
 
