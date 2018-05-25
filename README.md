@@ -13,6 +13,8 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 如果有什么不明白的请询问身边的朋友，不对**不善于学习的人**回答任何问题。
 在此注意的是注册时默认使用的是ShadowSocksR的混淆设置，只能使用ShadowSocksR的客户端，如需要使用ShadowSocks的客户端，则需要在面板中对混淆以及协议或者加密方式进行修改。
 
+尽管在各系统版本设置好后已经能够正常工作，但还是建议各位在PC上能按照浏览器插件设置一章进行后续的操作，此举将使今后的使用更加便捷。
+
 ## 客户端设置
 
 * [Windows](#windows)
@@ -20,6 +22,7 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 * [Android](#android)
 * [Linux](#linux)
 * [Mac](#mac)
+* [浏览器插件设置](#Chrome&Firefox)
 
 ### Windows
 
@@ -76,6 +79,8 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 然后开启系统代理为PAC模式
 
 ![](/assets/changePAC.png)
+
+可选：按照[浏览器插件设置](#Chrome&Firefox)对Chrome或Firefox进行插件的安装设置。
 
 Enjoy the free Internet.
 
@@ -171,10 +176,10 @@ python local.py -d stop/restart
 
 在设置完成后还需要对Ubuntu系统进行设置，打开Ubuntu的设置-网络-代理设置，将Socks的地方设置为127.0.0.1 端口号设置为1080
 
-#### 6. 对浏览器设置分流
-
 完成了上面的设置后，浏览网页是全部进入代理模式的，所以还没达到完美。
-需要在浏览器中安装一个插件Proxy SwitchyOmega。
+需要在浏览器中安装一个插件Proxy SwitchyOmega对代理进行分流管理。
+
+#### Chrome&Firefox
 
 * 如果你用 **Chrome**：访问 [Chrome 应用商店安装 SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)。
 * 如果你用 **Mozilla Firefox**：访问 [Mozilla Add-Ons 安装 SwitchyOmega](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/)。
@@ -206,13 +211,14 @@ python local.py -d stop/restart
 
 Enjoy the free Internet.
 
-
-
-#### 参考文献
-
-小灰木头兔. Chrome+SwitchyOmega+Shadowsocks 图文教程完整篇[EB/OL]. http://wxhp.org/shadowsocksr.html.
-
-
 ### Mac
 
 可以使用[ShadowsocksX\-NG](https://github.com/shadowsocks/ShadowsocksX-NG)，配置方式与 window 版类似。
+
+可选：按照[浏览器插件设置](#Chrome&Firefox)对Chrome或Firefox进行插件的安装设置。
+
+
+
+## 参考文献
+
+小灰木头兔. Chrome+SwitchyOmega+Shadowsocks 图文教程完整篇[EB/OL]. http://wxhp.org/shadowsocksr.html.
