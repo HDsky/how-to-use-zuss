@@ -213,7 +213,11 @@ Enjoy the free Internet.
 
 ``可选：按照[浏览器插件设置](#Chrome&Firefox)对Chrome或Firefox进行插件的安装设置。``
 
+## One More Thing
 
+由于Shadowsocks是Socks代理，在Windows系统当中不能用于命令行以及应用内代理（软件支持Socks除外），需要使用其他软件将Socks代理转为Http代理，在这里推荐使用``Proxifier``作为将Shadowsocks转为类似于VPN的全局代理的软件。
+
+另外对于Linux&Mac用户在使用一些命令行工具的时候会遇到国外网站无法访问或者速度慢的情况，这时候可以使用``Proxychains-NG``对Terminal中执行的命令进行代理。具体使用信息可以参考作者的Github项目主页。
 
 ## 参考文献
 
