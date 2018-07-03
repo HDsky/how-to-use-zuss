@@ -121,7 +121,7 @@ wget https://github.com/ssrbackup/shadowsocksr/archive/manyuser.zip
 #### 2. 进入刚下载的目录中的shadowsocks文件夹
 
 ```shell
-cd shadowsocksr-manyuser/shadowsocks
+cd shadowsocksr/shadowsocks
 ```
 #### 3. 运行
 
