@@ -27,7 +27,7 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 
 #### 下载
 
-[下载 ShadowSocksR (with HDsky Mod)](https://github.com/HDsky/gfwlist/raw/master/ssr-win-by-hdsky.7z) 
+下载链接已移除 可以选择从此处寻找你需要的客户端 https://github.com/shadowsocks
 
 #### 解压
 
@@ -96,7 +96,8 @@ Enjoy the free Internet.
 
 ### Android
 
-首先[下载安装APP](https://github.com/esdeathlove/panel-download/blob/master/ssr-android.apk?raw=true)。
+首先[下载安装APP](https://github.com/shadowsocks)。
+
 
 配置过程与iOS客户端类似，推荐使用二维码扫描的方式添加节点。
 
@@ -104,72 +105,19 @@ Enjoy the free Internet.
 
 ### Linux
 
-推荐使用[Python Client](https://github.com/ssrbackup/shadowsocksr),以下以Ubuntu 16.04 LTS为例进行操作。
+#### 1. 下载安装shadowsocks 客户端
 
-#### 1. 下载 shadowsocksR-python
+python版
+```shell
+pip install shadowsocks
+```
+C语言版
+```shell
+apt-get install shadowsocks-libev
+```
+又或者通过[此篇教程](https://github.com/shadowsocks/shadowsocks-qt5/wiki/Installation)安装Qt版本的shadowsocks
 
-```shell
-sudo apt install git
-git clone https://github.com/ssrbackup/shadowsocksr.git
-```
-或者
-
-```shell
-wget https://github.com/ssrbackup/shadowsocksr/archive/manyuser.zip
-```
-
-#### 2. 进入刚下载的目录中的shadowsocks文件夹
-
-```shell
-cd shadowsocksr/shadowsocks
-```
-#### 3. 运行
-
-参数说明：-p 端口 -k 密码  -m 加密方式 -O 协议 -o 混淆
-```shell
-python local.py -s server_ip -p 443 -k password -m aes-256-cfb -o http_simple
-```
-
-如果要后台运行：
-```shell
-python local.py -s server_ip -p 443 -k password -m aes-256-cfb -d start
-```
-如果要停止/重启：
-```shell
-python local.py -d stop/restart
-```
-查看日志：
-```shell
-tail -f /var/log/shadowsocks.log
-```
-#### 4. 进阶指南
-
-可以通过建立 JSON 文件的方式来实现代理的开启。
-在面板中已经有写好的 JSON 文件可以直接拷贝下来，现在当前目录建立一个文件。
-
-```shell
-vi ssr.json
-```
-或者使用对新手更友好的nano编辑器
-
-```shell
-nano ssr.json
-```
-
-然后把拷贝好的内容粘贴进去。使用下面的命令就能运行了（其中<PATH>为你放置文件的目录）
-
-```shell
-python local.py -c <PATH>/ssr.json
-```
-后台运行：
-```shell
-python local.py -c <PATH>/ssr.json -d start
-```
-如果要停止/重启：
-```shell
-python local.py -d stop/restart
-```
-#### 5. 设置系统代理
+#### 2. 设置系统代理
 
 在设置完成后还需要对Ubuntu系统进行设置，打开Ubuntu的设置-网络-代理设置，将Socks的代理地址参数设置为127.0.0.1 端口号设置为1080（默认参数，如果你自定义了参数，请根据实际情况进行填写）
 
@@ -205,11 +153,11 @@ Enjoy the free Internet.
 
 可以使用[ShadowsocksX\-NG](https://github.com/shadowsocks/ShadowsocksX-NG)，配置方式与 window 版类似。
 
-``可选：按照[浏览器插件设置](#Chrome&Firefox)对Chrome或Firefox进行插件的安装设置。``
+``可选：按照"浏览器插件设置"对Chrome或Firefox进行插件的安装设置。``
 
 ## One More Thing
 
-由于ShadowsocksR是Socks代理，在Windows系统当中不能用于命令行以及应用内代理（软件支持Socks除外），需要使用其他软件将Socks代理转为Http代理，在这里推荐使用``Proxifier``作为将Socks转为类似于VPN的全局代理的软件。
+由于Shadowsocks是Socks代理，在Windows系统当中不能用于命令行以及应用内代理（软件支持Socks除外），需要使用其他软件将Socks代理转为Http代理，在这里推荐使用``Proxifier``作为将Socks转为类似于VPN的全局代理的软件。
 
 另外对于Linux&Mac用户在使用一些命令行工具的时候会遇到国外网站无法访问或者速度慢的情况，这时候可以使用``Proxychains-NG``对Terminal中执行的命令进行代理。具体使用信息可以参考作者的Github项目主页。
 
