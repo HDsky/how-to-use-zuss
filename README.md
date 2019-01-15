@@ -77,7 +77,7 @@ Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hds
 
 ![](/assets/changePAC.png)
 
-``可选：按照[浏览器插件设置](#Chrome&Firefox)对Chrome或Firefox进行插件的安装设置。``
+``可选：按照[浏览器插件设置]对Chrome或Firefox进行插件的安装设置。``
 
 Enjoy the free Internet.
 
@@ -144,7 +144,7 @@ apt-get install shadowsocks-libev
 
 ![](/assets/switch.png)
 
-#### 7. 还原系统代理设置
+#### 3. 还原系统代理设置
 **打开Ubuntu的设置-网络-代理设置，将设置更改为不使用代理。**
 
 Enjoy the free Internet.
