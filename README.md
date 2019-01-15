@@ -2,7 +2,7 @@
 
 本文为合作编辑，感谢各位合作者的辛勤付出：lyic，imzbb，HDsky
 
-最后编辑日期为：2018/6/27
+最后编辑日期为：2019/01/15
 
 Gitbook连接：[https://hdsky.gitbooks.io/how-to-use-zuss/content/](https://hdsky.gitbooks.io/how-to-use-zuss/content/)
 >注意：因为ShadowSocksR的开发者已经宣布停止继续开发该项目并删除了之前的仓库，下面提供的下载链接是他人备份的仓库，当然如果你更喜欢原版ShadowSocks的话也是可以的。建议寻求[可信赖的下载渠道](http://shadowsocks.org/en/download/clients.html)，并在下载后进行校验。
